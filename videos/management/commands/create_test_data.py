@@ -1,7 +1,12 @@
+import django
+import os
 from django.core.management.base import BaseCommand
 from django.contrib.auth.models import User
 from videos.models import Video
 import random
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "practice3.settings")
+django.setup()
 
 class Command(BaseCommand):
     help = "Создает тестовых пользователей и видео"
