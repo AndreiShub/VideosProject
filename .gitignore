@@ -1,0 +1,53 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Django ===
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.mo
+local_settings.py
+media/
+staticfiles/
+static/
+.env
+
+# === PostgreSQL dumps ===
+*.sql
+*.psql
+*.dump
+
+# === Virtualenv ===
+venv/
+env/
+.venv/
+ENV/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+# (временные файлы и кеши)
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.docker/
+__MACOSX/
